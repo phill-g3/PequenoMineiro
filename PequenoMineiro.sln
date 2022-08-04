@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PequenoMineiro.Api", "PequenoMineiro.Api\PequenoMineiro.Api.csproj", "{A1A2BF5F-EC64-4EF1-A75B-F1132FA5102B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PequenoMineiro.Service", "PequenoMineiro.Service\PequenoMineiro.Service.csproj", "{9CAB7FB1-BD33-4FCD-AC5B-02FA006B46C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PequenoMineiro.Infra.Data", "PequenoMineiro.Infra.Data\PequenoMineiro.Infra.Data.csproj", "{F01F2473-E6C6-4761-9526-206D2F9E40D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PequenoMineiro.Domain", "PequenoMineiro.Domain\PequenoMineiro.Domain.csproj", "{6EAB26E9-2AF5-4B33-8557-B0D645044F06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PequenoMineiro.Tests", "PequenoMineiro.Tests\PequenoMineiro.Tests.csproj", "{CC5D66E0-7C47-4AAF-BF75-AC5A9765AD3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1A2BF5F-EC64-4EF1-A75B-F1132FA5102B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1A2BF5F-EC64-4EF1-A75B-F1132FA5102B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1A2BF5F-EC64-4EF1-A75B-F1132FA5102B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1A2BF5F-EC64-4EF1-A75B-F1132FA5102B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CAB7FB1-BD33-4FCD-AC5B-02FA006B46C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CAB7FB1-BD33-4FCD-AC5B-02FA006B46C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CAB7FB1-BD33-4FCD-AC5B-02FA006B46C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CAB7FB1-BD33-4FCD-AC5B-02FA006B46C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F01F2473-E6C6-4761-9526-206D2F9E40D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F01F2473-E6C6-4761-9526-206D2F9E40D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F01F2473-E6C6-4761-9526-206D2F9E40D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F01F2473-E6C6-4761-9526-206D2F9E40D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EAB26E9-2AF5-4B33-8557-B0D645044F06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EAB26E9-2AF5-4B33-8557-B0D645044F06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EAB26E9-2AF5-4B33-8557-B0D645044F06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EAB26E9-2AF5-4B33-8557-B0D645044F06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC5D66E0-7C47-4AAF-BF75-AC5A9765AD3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC5D66E0-7C47-4AAF-BF75-AC5A9765AD3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC5D66E0-7C47-4AAF-BF75-AC5A9765AD3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC5D66E0-7C47-4AAF-BF75-AC5A9765AD3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA8645E3-198F-4880-99A1-D8FC89DE7851}
+	EndGlobalSection
+EndGlobal
